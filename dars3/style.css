@@ -5,6 +5,7 @@
   border: 1px solid blue;
   font-size: 30px;
   color: white;
+  color: #000000;
 }
 .container {
   display: flex;
