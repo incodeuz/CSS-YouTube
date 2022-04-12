@@ -1,0 +1,11 @@
+[bir*="bir"] {
+  color: red;
+}
+
+/* 
+[]
+[item = "?"]
+[item^ = "?"] - boshlanishini tekshiradi
+[item$ = "?"] - tugashi tekshiradi
+[item* = "?"] - hamma joydan tekshiradi
+*/
