@@ -8,7 +8,7 @@
 
 - ## Transition o'zi nima?
 
-  Transition bu **"o'tish"** degan ma'noni bildirib malumotlarimizni holat **_(pseudo element yoki classlari bilan)_** belgilaganimizdan so'ng aytilgandek ko'rinishda **sekin** yoki **tez** o'zgarishini o'zgartirib beradigan hususiyat
+  Transition bu **"o'tish"** degan ma'noni bildirib malumotlarimizni holat **_(pseudo element yoki classlari bilan)_** belgilaganimizdan so'ng aytilgandek ko'rinishda **sekin** yoki **tez** o'zgartirib beradigan hususiyat
 
       transition
       transition-delay
