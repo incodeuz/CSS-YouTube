@@ -1,0 +1,32 @@
+.item {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  transition: all 2s;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.item:hover {
+  width: 400px;
+}
+
+.linear {
+  transition: all 2s linear;
+}
+.ease {
+  transition: all 2s ease;
+}
+.ease-in {
+  transition: all 2s ease-in;
+}
+.ease-in-out {
+  transition: all 2s ease-in-out;
+}
+.ease-out {
+  transition: all 2s ease-out;
+}
+.cubic {
+  transition: all 2s cubic-bezier(0.6, 0.56, 0, 1.24);
+  transition-delay: 2s;
+}
