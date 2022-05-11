@@ -4,36 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>12 dars Animations 2-qism</title>
   </head>
   <style>
     .box {
       width: 200px;
       height: 200px;
       background: red;
-      animation: box-hover 2s linear 3s infinite alternate;
+      color: white;
+      animation: box-hover 2s infinite 2s;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: both;
     }
-
     .box:hover {
       animation-play-state: paused;
     }
 
     @keyframes box-hover {
-      0% {
+      from {
         width: 300px;
         background: blue;
       }
-      50% {
-        border-radius: 50%;
-        height: 100px;
-      }
-      100% {
+      to {
         width: 500px;
         background: black;
       }
     }
   </style>
   <body>
-    <div class="box">Animation fill mode</div>
+    <div class="box">Animation play state</div>
   </body>
 </html>
