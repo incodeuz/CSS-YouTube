@@ -1,1 +1,2 @@
-console.log(typeof [1,"salom"])
+let name ="salom"
+console.log(name.includes(""));
